@@ -1,0 +1,145 @@
+body{
+    background-image: url(bakground.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+ }
+ 
+ .btn{
+     border: none;
+     background-color: inherit;
+     color: blanchedalmond;
+     padding: 14px 28px;
+     font-size: 20px;
+     cursor: pointer;
+     display: inline-block;
+     border-radius: 20px;
+     
+     }
+     .btn:hover {background: chocolate;
+        font-weight: bold;
+         }
+ 
+     
+ 
+ #about1{
+     width: 500px;
+     color: blanchedalmond;
+     margin-top: 150px;
+     margin-left: 120px;
+     position: relative;
+     font-size: 40px;
+     transition: 2s;
+     
+     }
+ #about{
+     width: 500px;
+     color: blanchedalmond;
+     margin-left: 120px;
+     margin-top: 60px;
+     font-size: 30px;
+     position: relative;
+     }
+ 
+ #mypic{
+     border: 10px solid chocolate;
+     width: 420px;
+     height: 420px;
+     margin-left: 55%;
+     top: 140px;
+     position: absolute;
+     vertical-align:-webkit-baseline-middle;
+     border-radius: 50%;
+     border-style: groove;
+     transition: 1.5s;
+   
+    }
+    #mypic:hover{
+     
+     width: 450px;
+     height: 450px;
+    
+  
+    }
+   
+   
+ 
+     #buttonshift{margin-left: 48%;}
+ 
+     .download{
+         border: none;
+         background-color: inherit;
+         color: blanchedalmond;
+         padding: 1px 2px;
+         font-size: 16px;
+         cursor: pointer;
+         display: inline-block;
+         margin-top: 170px;
+         margin-left: 30px;
+         position: relative;
+     }
+     .download:hover {color: lawngreen;}
+ 
+     #workexp{
+         
+         color: blanchedalmond;
+         margin-left: 120px;
+         margin-top: 60px;
+         font-size: 30px;
+         position: relative;
+         line-height: 60px;
+         }
+     
+         #o1,#o2,#o3,#o4,#o5{
+             transition: .8s;
+         }
+         #o1:hover{
+             color: lawngreen;
+         }
+         #o2:hover{
+             color: lawngreen;
+         }
+         #o3:hover{
+             color: lawngreen;
+         }
+         #o4:hover{
+             color: lawngreen;
+         }
+         #o5:hover{
+             color: lawngreen;
+         }
+ 
+         #education{
+         
+             color: blanchedalmond;
+             margin-left: 50px;
+             margin-top: 30px;
+             font-size: 30px;
+             position: relative;
+             line-height: 60px;
+             width: 90%;
+             }
+
+             .fa {
+                padding: 15px;
+                font-size: 50px;
+                width: 30px;
+                text-align: center;
+                text-decoration: none;
+                margin: 7px 3px;
+                border-radius: 50%;
+              }
+              
+              .fa:hover {
+                  opacity: 0.7;
+              }
+
+              .fa-linkedin {
+                background: #007bb5;
+                color: white;
+              }
+              .fa-instagram {
+                background:#cc0000;
+                color: white;
+              }
+
+             
