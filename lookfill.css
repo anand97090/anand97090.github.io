@@ -2,6 +2,7 @@ body{
     background-image: url(bakground.jpg);
     background-size: cover;
     background-attachment: fixed;
+   
  }
  
 .btn{
@@ -152,7 +153,7 @@ color: white;
 max-width: 1080px;
 
 text-align: left;
-margin-left: 10%;
+margin-left: 13%;
 
 
 
@@ -179,15 +180,15 @@ margin-left: 10%;
         background-size: cover;
         background-attachment: fixed;
         width: inherit;
-        margin-left: 30px;
+        margin-left: 20px;
      }
      
     .btn{
          border: none;
          background-color: inherit;
          color: blanchedalmond;
-         padding: 7px 8px;
-         font-size: 6px;
+         padding: 8px 9px;
+         font-size: 7px;
          cursor: pointer;
          display: inline-block;
          font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
@@ -212,6 +213,7 @@ margin-left: 10%;
          transition: 2s;
          
          }
+         
     
     #about{
          width: 100px;
@@ -269,12 +271,13 @@ margin-left: 10%;
              margin-top: 20px;
              font-size:5px;
              position: relative;
-             line-height: 10px;
+             line-height: 15px;
              
              }
          
     #o1,#o2,#o3,#o4,#o5{
-                 transition: .8s;
+                 transition: .5s;
+                 font-size: 10px;
              }
         #o1:hover{
                  color: lawngreen;
@@ -299,7 +302,7 @@ margin-left: 10%;
         margin-top: 20px;
         font-size: 5px;
         position: relative;
-        line-height: 20px;
+        line-height: 15px;
         
         }
     
@@ -328,8 +331,8 @@ margin-left: 10%;
     
     #fieldset{
         
-    max-width: 180px;
-    margin-left: 50px;
+    max-width: 230px;
+    margin-left: 30px;
     text-align: left;
     
     
