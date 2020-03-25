@@ -4,7 +4,7 @@ body{
     background-attachment: fixed;
  }
  
- .btn{
+.btn{
      border: none;
      background-color: inherit;
      color: blanchedalmond;
@@ -12,16 +12,19 @@ body{
      font-size: 20px;
      cursor: pointer;
      display: inline-block;
+     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
      border-radius: 20px;
+     text-decoration: none;
      
      }
-     .btn:hover {background: chocolate;
+
+.btn:hover {background: chocolate;
         font-weight: bold;
          }
  
      
  
- #about1{
+#about1{
      width: 500px;
      color: blanchedalmond;
      margin-top: 150px;
@@ -31,7 +34,8 @@ body{
      transition: 2s;
      
      }
- #about{
+
+#about{
      width: 500px;
      color: blanchedalmond;
      margin-left: 120px;
@@ -40,7 +44,7 @@ body{
      position: relative;
      }
  
- #mypic{
+#mypic{
      border: 10px solid chocolate;
      width: 420px;
      height: 420px;
@@ -53,19 +57,19 @@ body{
      transition: 1.5s;
    
     }
-    #mypic:hover{
+    
+#mypic:hover{
      
      width: 450px;
      height: 450px;
     
-  
     }
    
    
  
-     #buttonshift{margin-left: 48%;}
+#buttonshift{margin-left: 40%;}
  
-     .download{
+.download{
          border: none;
          background-color: inherit;
          color: blanchedalmond;
@@ -73,13 +77,14 @@ body{
          font-size: 16px;
          cursor: pointer;
          display: inline-block;
-         margin-top: 170px;
+         margin-top: 150px;
          margin-left: 30px;
          position: relative;
      }
-     .download:hover {color: lawngreen;}
+     
+.download:hover {color: lawngreen;}
  
-     #workexp{
+#workexp{
          
          color: blanchedalmond;
          margin-left: 120px;
@@ -89,57 +94,266 @@ body{
          line-height: 60px;
          }
      
-         #o1,#o2,#o3,#o4,#o5{
+#o1,#o2,#o3,#o4,#o5{
              transition: .8s;
          }
-         #o1:hover{
+    #o1:hover{
              color: lawngreen;
          }
-         #o2:hover{
+    #o2:hover{
              color: lawngreen;
          }
-         #o3:hover{
+    #o3:hover{
              color: lawngreen;
          }
-         #o4:hover{
+    #o4:hover{
              color: lawngreen;
          }
-         #o5:hover{
+    #o5:hover{
              color: lawngreen;
          }
  
-         #education{
+#education{
          
-             color: blanchedalmond;
-             margin-left: 50px;
-             margin-top: 30px;
-             font-size: 30px;
-             position: relative;
-             line-height: 60px;
-             width: 90%;
-             }
+    color: blanchedalmond;
+    margin-left: 50px;
+    margin-top: 30px;
+    font-size: 30px;
+    position: relative;
+    line-height: 60px;
+    width: 90%;
+    }
 
-             .fa {
-                padding: 15px;
-                font-size: 50px;
-                width: 30px;
-                text-align: center;
-                text-decoration: none;
-                margin: 7px 3px;
-                border-radius: 50%;
+.fa {
+    padding: 15px;
+    font-size: 50px;
+    width: 30px;
+    text-align: center;
+    text-decoration: none;
+    margin: 7px 3px;
+    border-radius: 50%;
               }
               
-              .fa:hover {
-                  opacity: 0.7;
-              }
+.fa:hover {
+    opacity: 0.7;
+}
 
-              .fa-linkedin {
-                background: #007bb5;
-                color: white;
-              }
-              .fa-instagram {
-                background:#cc0000;
-                color: white;
-              }
+.fa-linkedin {
+background: #007bb5;
+color: white;
+}
+.fa-instagram {
+background:#cc0000;
+color: white;
+}
 
+#fieldset{
+    
+max-width: 1080px;
+
+text-align: left;
+margin-left: 10%;
+
+
+
+}
+
+
+.legend{
+    color: chocolate;
+    font-size: 30px;
+    font-style: italic;
+    
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+#clicktoview{
+    font-size: 25px;
+    font-weight: bold;
+}
+
+  @media only screen and (max-width:500px)
+ {
+    /* For phone: */
+    body{
+        background-image: url(bakground.jpg);
+        background-size: cover;
+        background-attachment: fixed;
+        width: inherit;
+        margin-left: 30px;
+     }
+     
+    .btn{
+         border: none;
+         background-color: inherit;
+         color: blanchedalmond;
+         padding: 7px 8px;
+         font-size: 6px;
+         cursor: pointer;
+         display: inline-block;
+         font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+         border-radius: 20px;
+         text-decoration: none;
+         
+         }
+    
+    .btn:hover {background: chocolate;
+            font-weight: bold;
+             }
+     
+         
+     
+    #about1{
+         width: 100px;
+         color: blanchedalmond;
+         margin-top: 60px;
+         margin-left: 30px;
+         position: relative;
+         font-size: 10px;
+         transition: 2s;
+         
+         }
+    
+    #about{
+         width: 100px;
+         color: blanchedalmond;
+         margin-left: 30px;
+         margin-top: 40px;
+         font-size: 10px;
+         position: relative;
+         }
+     
+    #mypic{
+         border: 10px solid chocolate;
+         width: 80px;
+         height: 80px;
+         margin-left: 190px;
+         top: 90px;
+         position: absolute;
+         vertical-align:-webkit-baseline-middle;
+         border-radius: 50%;
+         border-style: groove;
+         transition: 1.5s;
+       
+        }
+        
+    #mypic:hover{
+         
+         width: 100px;
+         height: 100px;
+        
+        }
+       
+       
+     
+    #buttonshift{margin-left: 20%;}
+     
+    .download{
+             border: none;
+             background-color: inherit;
+             color: blanchedalmond;
+             padding: 1px 2px;
+             font-size: 8px;
+             cursor: pointer;
+             display: inline-block;
+             margin-top: 80px;
+             margin-left: 2px;
+             position: relative;
+         }
+         
+    .download:hover {color: lawngreen;}
+     
+    #workexp{
+             
+             color: blanchedalmond;
+             margin-left: 0px;
+             margin-top: 20px;
+             font-size:5px;
+             position: relative;
+             line-height: 10px;
+             
+             }
+         
+    #o1,#o2,#o3,#o4,#o5{
+                 transition: .8s;
+             }
+        #o1:hover{
+                 color: lawngreen;
+             }
+        #o2:hover{
+                 color: lawngreen;
+             }
+        #o3:hover{
+                 color: lawngreen;
+             }
+        #o4:hover{
+                 color: lawngreen;
+             }
+        #o5:hover{
+                 color: lawngreen;
+             }
+     
+    #education{
+             
+        color: blanchedalmond;
+        margin-left: 0px;
+        margin-top: 20px;
+        font-size: 5px;
+        position: relative;
+        line-height: 20px;
+        
+        }
+    
+    .fa {
+        padding: 5px;
+        font-size: 15px;
+        width: 10px;
+        text-align: center;
+        text-decoration: none;
+        margin: 7px 3px;
+        border-radius: 50%;
+                  }
+                  
+    .fa:hover {
+        opacity: 0.7;
+    }
+    
+    .fa-linkedin {
+    background: #007bb5;
+    color: white;
+    }
+    .fa-instagram {
+    background:#cc0000;
+    color: white;
+    }
+    
+    #fieldset{
+        
+    max-width: 180px;
+    margin-left: 50px;
+    text-align: left;
+    
+    
+    
+    
+    
+    }
+    
+    
+    .legend{
+        color: chocolate;
+        font-size: 10px;
+        font-style: italic;
+        
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    }
+    
+    #clicktoview{
+        font-size: 5px;
+        font-weight: bold;
+    }
+   
+  }
+
+
+  
              
