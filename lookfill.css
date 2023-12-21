@@ -65,6 +65,19 @@ body{
      height: 450px;
     
     }
+#pic:
+{
+    border: 10px solid;
+     width: 420px;
+     height: 420px;
+     margin-left: 55%;
+     top: 160px;
+     position: absolute;
+     vertical-align:-webkit-baseline-middle;
+     border-radius: 50%;
+    
+    
+}
    
    
  
